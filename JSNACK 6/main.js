@@ -1,5 +1,10 @@
-var numero = prompt("Dammi un numero.")
-console.log(numero);
+var numero= parseInt(prompt("dammi un numero:"));
 
-var cubonumero = numero * numero * numero;
-console.log(cubonumero);
+if (isNaN(numero)){
+  console.log("ti avevo chiesto un numero!");
+} else {
+  for (var i = 1; i <= numero; i++) {
+    var cubo = Math.pow(i,3);
+    console.log(cubo);
+  }
+}

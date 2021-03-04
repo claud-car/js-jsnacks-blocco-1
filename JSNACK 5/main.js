@@ -1,4 +1,4 @@
-listanumeridispari= [];
+var listanumeridispari= [];
 
 for (var i = 0; i < 6; i++) {
   var numeri = parseInt(prompt("Dammi un numero"))
